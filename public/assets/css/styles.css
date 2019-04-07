@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body, #root {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+/*#main {
+	background-image: url("../img/sketch1.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-y: 40%;	
+} */
+
+.game {
+	background-color: lightgreen;
+}
+
+.nav {
+	background-color: lightskyblue;
+}
+
+.header {
+	text-align: center;	
+}
+
+.divider {
+	margin: 20px 0 20px 0;
+}
+
+.card {
+	border: 3px solid black;
+	
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.card-image {
+	padding: 5px 15px;
+	
+}

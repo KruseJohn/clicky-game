@@ -7,9 +7,9 @@ import Cover from './components/cover';
 import Container from './components/container';
 import Footer from './components/footer';
 
-const characters = ['Butters', 'Craig', 'Eric', 'Ike', 'Jimmy', 'Kenny', 'Kyle', 'Nathan', 'Premise', 'Schwartz', 'Shelly', 'Stan', 'Timmy', 'Token', 'Tweek', 'Wendy'];
+const characters = ['Butters', 'Craig', 'Eric', 'Firkle', 'Ike', 'Jimmy', 'Kenny', 'Kyle', 'Nathan', 'Pip', 'Premise', 'Schwartz', 'Shelly', 'Stan', 'Thad', 'Timmy', 'Token', 'Tweek', 'Wendy'];
 
-const colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'light-blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'yellow', 'amber', 'orange', 'deep-orange'];
+const colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'light-blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'yellow', 'amber', 'orange', 'deep-orange', 'light-tan', 'light-gray'];
 
 class App extends Component {
 	constructor(props) {
@@ -61,7 +61,7 @@ class App extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="game">
 				<Nav
 					score={this.state.score}
 					topScore={this.state.topScore}
