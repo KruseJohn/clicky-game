@@ -7,9 +7,9 @@ import Cover from './components/cover';
 import Container from './components/container';
 import Footer from './components/footer';
 
-const characters = ['Butters', 'Craig', 'Eric', 'Firkle', 'Ike', 'Jimmy', 'Kenny', 'Kyle', 'Nathan', 'Pip', 'Premise', 'Schwartz', 'Shelly', 'Stan', 'Thad', 'Timmy', 'Token', 'Tweek', 'Wendy'];
+const characters = ['Butters', 'Craig', 'Eric', 'Firkle', 'Ike', 'Jimmy', 'Kenny', 'Kyle', 'Nathan', 'Pip', 'Premise', 'Schwartz', 'Shelly', 'Stan', 'Thad', 'Timmy', 'Token', 'Tweek'];
 
-const colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'light-blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'yellow', 'amber', 'orange', 'deep-orange', 'light-tan', 'light-gray'];
+const colors = ['red', 'pink', 'purple', 'slateblue', 'lightskyblue', 'blue', 'lightblue', 'cyan', 'teal', 'green', 'lightgreen', 'lime', 'yellow', 'coral', 'orange', 'darkorange', 'tan', 'khaki'];
 
 class App extends Component {
 	constructor(props) {
