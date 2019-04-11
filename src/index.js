@@ -9,7 +9,8 @@ import Footer from './components/footer';
 
 const characters = ['Butters', 'Craig', 'Eric', 'Firkle', 'Ike', 'Jimmy', 'Kenny', 'Kyle', 'Nathan', 'Pip', 'Premise', 'Schwartz', 'Shelly', 'Stan', 'Thad', 'Timmy', 'Token', 'Tweek'];
 
-const colors = ['red', 'pink', 'purple', 'slateblue', 'lightskyblue', 'blue', 'lightblue', 'cyan', 'teal', 'green', 'lightgreen', 'lime', 'yellow', 'coral', 'orange', 'darkorange', 'tan', 'khaki'];
+const colors = ['Red', 'Pink', 'Purple', 'Olive', 'Lavender', 'Blue', 'Gold', 'Cyan', 'Teal', 'Green', 'Crimson', 'Lime', 'Yellow', 'Coral', 'Orange', 'Aqua', 'Tan', 'Khaki'];
+
 
 class App extends Component {
 	constructor(props) {
@@ -49,7 +50,7 @@ class App extends Component {
 		} else {
 			_.delay(() => {
 				this.setState({ info: 'Try Again!' });
-			}, 500);
+			}, 2000);
 			this.setState({ score: 0, selectedCharacters: [], info: `${name} (Duplicate)!` });
 		}
 		this.shuffleCharacters();

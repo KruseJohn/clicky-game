@@ -13,7 +13,7 @@ const Container = ({ colors, characters, onImageClick }) => {
 		)
 	})
 	return (
-		<div className='container-fluid' id="main">
+		<div className='container' id="main">
 			<div className='row'>
 				{Colors}
 			</div>

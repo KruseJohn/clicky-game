@@ -2,14 +2,16 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<footer className='footer bg-primary'>
-			
-			<div className='footer mx-auto'>
-				<div className='container-fluid'>
-					<span>© 2019 J A Kruse</span>
-				</div>
+		<div className='container-fluid'>	
+			<div className='row justify-content-md-center my-3'>
+				<img src='assets/img/sketch1.jpg' alt="south park" width='320px' height='120px' />
 			</div>
-		</footer>
+		
+		
+			<div className='row bg-info'>
+				<h6 className='header col-sm-12 text-white'>@ J A Kruse</h6>
+			</div>
+		</div>
 	);
 };
 
