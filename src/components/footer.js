@@ -9,7 +9,7 @@ const Footer = () => {
 		
 		
 			<div className='row bg-info'>
-				<h6 className='header col-sm-12 text-white'>@ J A Kruse</h6>
+				<h6 className='header col-sm-12 text-white'>J A Kruse</h6>
 			</div>
 		</div>
 	);
